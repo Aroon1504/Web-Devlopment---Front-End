@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!------------------------fontawesome-------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!------------------------custome css file link--------------------->
+    <link rel="stylesheet" href="style.css">
+    <!--------------------------fontstyle link------------------------------>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-------------------------------header------------------------------------>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="index.html" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="book.html">BOOK</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" name="" id="search-bar" placeholder="search here....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!----------------X--------------header-----------------X------------------>
+    <!---------login form container------------------------------------>
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href="#">click here</a></p>
+            <p>don't have an account?<a href="#">register now</a></p>
+        </form>
+    </div>
+    <!-----------------------home------------------------>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="images/vid-2.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Travel is the main thing you purchase that makes you more extravagant. We, at ‘Organization Name’,
+                    swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.
+                </p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html">home</a>
+                <a href="book.html">book</a>
+                <a href="gallery.html">gallery</a>
+                <a href="contact.html">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-linkedin-in"></i> linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> Arunkumar </span> | all rights reserved! </h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--------------------------custom js file link--------------->
+    <script src="script.js"></script>
+</body>
+
+</html>
